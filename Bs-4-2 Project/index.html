@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-------Font-Awesome CDN------------>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+<!------Font Family-------------->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Bootstrap 4-2</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <!-----nav bar Start------------>
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+    <a class="navbar-brand" href="#"><i class="fa fa-cutlery"></i>Cryspy</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#testimoniels">Services</a>
+        </li>  
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Gallary</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#blog">Blog</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item">
+         <button class="btn btn-light">Call Us</button>
+        </li>    
+      </ul>
+    </div>  
+  </nav>
+  <!-----nav bar end------------>
+
+  <!--------Home Page Start-------------------->
+  <section class="homepage" id="home">
+    <div class="container">
+     <div class="row">
+       <div class="col-lg-6 col-sm-12">
+        <div id="demo" class="carousel slide " data-ride="carousel ">
+
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+          
+          <!-- The slideshow -->
+          <div class="carousel-inner" data-aos="fade-right"
+       data-aos-offset="300"
+       data-aos-easing="ease-in-sine">
+            <div class="carousel-item active">
+             <div class="text">
+                  <h1 class="display-4">Delicious & Crispy</h1>
+                  <h3 class="display-4">Recipes.</h3>
+                  <p>We make digital products in a way that brings together a large range of skills namely, business innovation, consulting and analytics, content strategy and design, marketing technology and web development. </p>
+                  <button class="btn btn-danger">Read More</button>
+                  <button class="btn btn-secondary">Contact Us</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+               <div class="text">
+                  <h1 class="display-4">Delicious & Crispy</h1>
+                  <h3 class="display-4">Recipes.</h3>
+                  <p>We make digital products in a way that brings together a large range of skills namely, business innovation, consulting and analytics, content strategy and design, marketing technology and web development. </p>
+                  <button class="btn btn-warning">Read More</button>
+                  <button class="btn btn-secondary">Contact Us</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+               <div class="text">
+                  <h1 class="display-4">Delicious & Crispy</h1>
+                  <h3 class="display-4">Recipes.</h3>
+                  <p>We make digital products in a way that brings together a large range of skills namely, business innovation, consulting and analytics, content strategy and design, marketing technology and web development. </p>
+                  <button class="btn btn-success">Read More</button>
+                  <button class="btn btn-secondary">Contact Us</button>
+                </div>
+            </div>
+          </div>
+          
+          
+        </div>
+       </div>
+
+       <div class="col-lg-6 col-sm-12" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+         <div class="img text-center">
+           <img class="img-fluid" src="images/f3.jpg" alt="">
+         </div>
+      </div>
+
+     </div>
+    </div>
+ </section>
+
+  <!--------Home Page End-------------------->
+
+  <!-------------About Us Page Start------------>
+
+  <section class="about-us mt-5 pt-5"id="about">
+    <h2 class="text-center mt-5">A<u>boutU</u>s</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-6 col-sm-12 text-justify">
+          <h2>Enjoy The Greatest Pleasure in Our Hotel</h2>
+          <p class="text" data-aos="fade-zoom-in"
+         data-aos-easing="ease-in-back"
+         data-aos-delay="300"
+         data-aos-offset="0">
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit porro at sequi magnam id dignissimos doloribus consequatur, corrupti dolorum a commodi quia odit laudantium, sint maxime libero in, asperiores ducimus quae. Porro, asperiores fuga eius cum ducimus cumque facilis mollitia provident sequi iste nisi impedit illum repellendus reiciendis esse libero.</p>
+          <div class="row icons">
+              <div class="col-lg-2 col-sm-6" data-aos="fade-down">
+                <div class="icon text-center">
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+                <h4 class="text-center">healthy</h4>
+              </div>
+
+              <div class="col-lg-2 col-sm-6" data-aos="fade-down">
+                <div class="icon text-center">
+                <i class="fa fa-fire" aria-hidden="true"></i>
+                </div>
+                <h4 class="text-center">Spicy</h4>
+               </div>
+
+              <div class="col-lg-2 col-sm-6" data-aos="fade-down">
+                <div class="icon text-center">
+                 <i class="fa fa-apple" aria-hidden="true"></i>
+                </div>
+                <h4 class="text-center">Crunchy</h4>
+              </div>
+
+            <div class="col-lg-2 col-sm-6" data-aos="fade-down">
+              <div class="icon text-center">
+               <i class="fa fa-coffee" aria-hidden="true"></i>
+              </div>
+              <h4 class="text-center">Recipe</h4>
+             </div>
+          </div> 
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="img">
+            <img class="img-fluid" src="images/f5.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-------------About Us Page End----------->
+
+  <!----Testimoniels Us Page Start---->
+  <section class="testimoniels mt-5 pt-5" id="testimoniels">
+    <h3 class="text-center my-5">T<u>estimoniel</u>s</h3>
+    <div class="container">
+      <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="card" data-aos="fade-right"
+       data-aos-offset="300"
+       data-aos-easing="ease-in-sine">
+                <div class="card-body">
+                <div class="text">
+                  <i class="fa fa-quote-right" aria-hidden="true"></i>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nihil fuga aliquid debitis natus porro doloremque deleniti quas itaque culpa.
+                  </p>
+              </div>
+              </div>
+            </div>
+            <div class="media" data-aos="fade-right"
+       data-aos-offset="300"
+       data-aos-easing="ease-in-sine">
+              <img src="images/f6.jpg" alt="John Doe" class="img-fluid">
+              <div class="media-body">
+                <h4>John</h4>
+                <p>
+                <i>May 3rd 1999</i>
+                </p>      
+              </div>
+            </div>
+            </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card" data-aos="fade-down">
+              <div class="card-body">
+              <div class="text">
+                <i class="fa fa-quote-right" aria-hidden="true"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nihil fuga aliquid debitis natus porro doloremque deleniti quas itaque culpa.
+                </p>
+             </div>
+            </div>
+          </div>
+          <div class="media" data-aos="fade-down">
+            <img src="images/f7.jpg" alt="John Doe" class="img-fluid">
+            <div class="media-body">
+              <h4>John</h4>
+              <p>
+              <i>May 3rd 1999</i>
+              </p>      
+            </div>
+          </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card" data-aos="fade-left"
+       data-aos-anchor="#example-anchor"
+       data-aos-offset="500"
+       data-aos-duration="500">
+              <div class="card-body">
+              <div class="text">
+                <i class="fa fa-quote-right" aria-hidden="true"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nihil fuga aliquid debitis natus porro doloremque deleniti quas itaque culpa.
+                </p>
+             </div>
+            </div>
+            </div>
+            <div class="media"  data-aos="fade-left"
+       data-aos-anchor="#example-anchor"
+       data-aos-offset="500"
+       data-aos-duration="500">
+              <img src="images/f8.jpg" alt="John Doe" class="img-fluid">
+              <div class="media-body">
+                <h4>John</h4>
+                <p>
+                <i>May 3rd 1999</i>
+                </p>      
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!----Testimoniels Us Page end---->
+  
+  <!----Blog News Page Start---->
+  <section class="blog" id="blog">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-7 col-md-6 col-sm-12">
+            <div class="img">
+              <img class="img-fluid" src="images/m1.jpg" alt="food">
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-6 col-sm-12">
+            <div class="text-justify text" data-aos="fade-right"
+       data-aos-offset="300"
+       data-aos-easing="ease-in-sine">
+              <h6>March 03,2019</h6>
+              <h3>hello World</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio maxime aliquid ipsam eveniet cum, pariatur amet laudantium illum incidunt quibusdam, praesentium corporis possimus ea rem provident commodi minus atque deleniti! Dolor quas fugiat, perspiciatis ea placeat impedit a corrupti dolore totam, voluptatem quo exercitationem beatae tenetur nihil eaque debitis nulla.
+              </p>
+              <button type="button" class="btn btn-secondary">Viewpost</button>
+             </div>
+          </div>
+           
+          <!---------Second Section--------------->
+     
+          <div class="col-lg-5 col-md-6 col-sm-12 mt-5">
+            <div class="text-justify text" data-aos="fade-left"
+       data-aos-anchor="#example-anchor"
+       data-aos-offset="500"
+       data-aos-duration="500">
+              <h6>March 03,2019</h6>
+              <h3>hello World</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio maxime aliquid ipsam eveniet cum, pariatur amet laudantium illum incidunt quibusdam, praesentium corporis possimus ea rem provident commodi minus atque deleniti! Dolor quas fugiat, perspiciatis ea placeat impedit a corrupti dolore totam, voluptatem quo exercitationem beatae tenetur nihil eaque debitis nulla.
+              </p>
+              <button type="button" class="btn btn-secondary">ViewPost</button>
+             </div>
+          </div>
+
+          <div class="col-lg-7 col-md-6 col-sm-12 mt-5">
+            <div class="img text-right">
+              <img class="img-fluid" src="images/m2.jpg" alt="food">
+            </div>
+          </div>
+        
+        </div>
+    </div>
+  </section>
+  <!----Blog News Page end---->
+
+ <!----DeatilsPage start---->
+  <section class="Deatils">
+            
+    <div class="jumbotron-fluid text-center">
+      
+        <div class="col-lg-12 p-4">
+        <h2>Eat Healthy And Delicious Crispy From Our Hotel</h2>
+        <h4>Call Us to Book Your Table Today or Order Your food</h4>
+        <h3>+12 345 678</h3>
+      </div>
+    </div>
+ </section>
+ <!----DeatilsPage end---->
+
+   <!-------Footer Page Start------->
+   <section class="Footer pt-5" data-aos="flip-down">
+    <footer>
+        <div class="container">
+          <div class="row">
+
+              <div class="col-lg-3 col-sm-12">
+               <h4 class="text-light"><i class="fa fa-cutlery">Cryspy</i></h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum cumque neque dolores iusto incidunt? </p>
+               <p>Trusted By 500 + People</p>
+              </div>
+
+              <div class="col-lg-3 col-sm-12">
+               <h4 class="text-light">Address info</h4>
+               <p>64-D Canel Street TT3356</p>
+               <p>Network, NY.</p>
+               <p>+1(12)123 456 789 </p>
+               <p>info@gmail.com</p>
+              </div>
+
+              <div class="col-lg-3 col-sm-12">
+              <h4 class="text-light">Quick Links</h4>
+              <p>Order Online</p>
+              <p>Healthy Crispy</p>
+              <p>Support Helpline</p>
+              <p>Privacy Policy</p>
+              </div>
+
+              <div class="col-lg-3 col-sm-12">
+                <h4 class="text-light">Subscribe Us</h4>
+                 
+                    <input type="email" placeholder="Enter an Email">
+                    <button  class="btn btn-primary">Submit</button>
+                 
+              <p>
+			        <i class="fa fa-facebook-official fb" aria-hidden="true"></i>
+			        <i class="fa fa-pinterest pt" aria-hidden="true"></i>
+			        <i class="fa fa-certificate cer" aria-hidden="true"></i>
+			        <i class="fa fa-google-plus-official gp" aria-hidden="true"></i>
+			       </p>
+              </div>
+
+          </div>
+        </div>
+    </footer>
+  </section>
+
+  <footer class="footer">
+    <div class="container-fluid text-center bg-dark">
+   &copy; Copyright 2021 Crispy All Rights Reserved | Desigend By ilander
+    </div>
+  </footer>
+
+   <!-------Footer Page End------->
+
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+ </script>
+</body>
+</html>

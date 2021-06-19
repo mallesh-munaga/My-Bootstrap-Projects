@@ -1,0 +1,98 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+ background-image: url(../images/b1.jpg);
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+ 
+}
+
+
+/*Navbar Css*/
+.bg-dark{
+ background-color:#1b201d !important;
+ opacity: 0.7;
+ color:black;
+}
+.nav-item{
+  padding-right: 35px;
+  margin-left: 8px;
+}
+.nav-item:hover{
+	color:white;
+}
+.navbar-dark .navbar-brand {
+    color: #FFF;
+    margin-left: 98px;
+}
+/*Home Page Css*/
+
+.homepage{
+	margin-top: 21%;
+    padding:13%;
+    color: white;
+    line-height: 27px;
+    word-spacing: 2px;
+}
+/*About Us  Page Css*/
+
+.about-us{
+	margin-top: 5%;
+    background-color: #ececec;
+}
+.information{
+    margin-top: 7%;
+    font-family: fangsong;
+    line-height: 27px;
+}
+.img{
+	margin-top: 6%;
+    margin-bottom: 17px;
+}
+
+/*Services  Page Css*/
+
+.services{
+	background-color:#ffffff;
+	padding-top: 48px;
+}
+ 
+.card{
+	margin-right: 9px;
+    margin-bottom: 28px;
+    box-shadow: 0px 0px 9px lightgrey;
+    padding: 18px;
+}
+/*Blog  Page Css*/
+.blog{
+	background-color:#ececec;
+	padding-top: 48px;
+}
+.media-body{
+	margin-right: 23px;
+}
+
+/*Footer  Page Css*/
+.footer{
+	background-color:#061220;
+	padding-top:50px;
+}
+.footer p{
+	color:white;
+}
+
+.footer-2{
+ background-color:black;
+ color:white;
+ padding:10px;
+}

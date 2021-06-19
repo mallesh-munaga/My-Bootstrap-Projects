@@ -1,0 +1,160 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Comfortaa', cursive;
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar-dark{
+	background-color: #f85a3f !important;
+	padding: 9px;
+}
+.nav-item{
+	color: white;
+    padding-right: 10px;
+    margin-right: 22px;
+}
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-size: 36px;
+    margin: 5px 4px 5px 132px;
+}
+
+/*Home Page Start*/
+
+.homepage{
+	background-color: #d8dbdb;
+    padding-top: 7%;
+}
+.homepage .text{
+    margin-top: 55px;
+    line-height: 30px;
+    margin-bottom: 79px;
+}
+.carousel-inner .text {
+    width: 100%;
+    height: 100%;
+  }
+  .carousel-indicators {
+    justify-content: left;
+    margin-left: -5px;
+  }
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #f85a3f;
+}
+.carousel-item .secondary{
+    background-color: #f85a3f !important;
+    color:white;
+}
+.homepage img{
+	border-radius: 50%;
+    height:400px;
+    width:400px;
+	margin-bottom: 22px;
+}
+/*About Us Page Start*/
+.about-us{
+	padding-top: 21px;
+    margin-top: 10px;
+}
+  .about-us  img{
+    width:400px;
+    height:250px;
+}
+.about-us .icon{
+    font-size: 51px;
+    color: white;
+    background-color: #f85a3f ;
+    border-radius: 50%;
+    width: 104px;
+    height: 86px;
+}
+.about-us .text{
+    line-height: 30px;
+}
+
+/*Testimoniels Page*/
+.testimoniels{
+    margin-top:5%;
+}
+.card{
+    color: white;
+    background-color: #f85a3f ;
+}
+.card .text{
+    line-height: 27px;
+}
+ .media img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-top: 4px;
+}
+.media-body{
+    margin-left: 9px;
+    margin-top: 17px;
+}
+/* Blog Page*/
+.blog{
+    margin-top:5%;
+}
+.blog img{
+    height:400px;
+    width:550px;
+    margin-top:4px;
+}
+.blog .text{
+    line-height: 30px;
+    margin-top: 38px;
+}
+/* Deatils Page*/
+.Deatils{
+ margin-top:5%;
+ background-color:#f85a3f;
+ color:#f8f9fb;
+ padding:15px;
+}
+
+.Deatils .jumbotron-fluid{
+    line-height: 2px;
+}
+/*Footer Page*/
+.Footer{
+ background-color: #191919;
+ padding-top:10px;
+ color:#827f7a;
+
+}
+.Footer input[type=email]{
+    width: 173px;
+    margin-left:-21px;
+    height: 39px;
+}
+.Footer p{ 
+    line-height: 25px;
+}
+.Footer .btn-primary{
+    background-color: #f85a3f;
+    color: white;
+    outline: none;
+    margin-left: -6px;
+    border: none;
+    width: 101px;
+    height: 38px;
+}
+.Footer .fb, .pt, .cer, .gp{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-right: 9px;
+    color: white;
+}
+
+.footer .bg-dark{
+    background-color: #343A34!important;
+    color: white;
+    padding: 15px;
+    margin-top: 1px;
+}
